@@ -1,23 +1,29 @@
 # Dokdo
 `Dokdo` is static HTML template compiler written in pure Python. It is inspired by [Vue.js][vue.js].
 
-# Why another template engine?
+## Philasophy
+NO server, NO client, NO other programming language. ONLY HTML.
+
+It has similar grammar with HTML tag for consistency. You can thought it as an extension of HTML.
+
+## Why another template engine?
 - Server-side template engines require a particular server framework
 - Client-side template engines require a particular client framework
 - Most of template engines focus on dynamic templating(means less static features and have overhead)
 - I wanted to avoid HTML code redundancy and I didn't want to hang on a particular framework
 - So I made it myself
 
-# Who should use this framework
+## Who should use this framework
 - Who needs powerful static html template compiler
 - Who completely separates a dynamic part from a static part in their project
 - Who only deals with HTML(you don't have to know other programming languages)
+- Who wants to avoid HTML code redundancy without hanging on a particular framework
 
-# Who should NOT use this framework
+## Who should NOT use this framework
 - Who needs dynamic templating
 - Who already decided to use particular web framework FOREVER(most of them provide templating feature)
 
-# Usage
+## Usage
 index.html
 ```html
 <import path="templates/cap.tmpl" title="title variable">
