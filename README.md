@@ -1,5 +1,5 @@
-# What is Dokdo?
-`Dokdo` is Deadly simple static html template compiler. It is inspired by [Vue.js][vue.js].
+# Dokdo
+`Dokdo` is static html template compiler written in pure Python. It is inspired by [Vue.js][vue.js].
 
 # Why another template engine?
 - Server-side template engines require particular server framework
