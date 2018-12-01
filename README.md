@@ -58,7 +58,7 @@ components/fancy-text.comp
   }
 </style>
 <span class="fancy-text">
-  {{{ text }}}
+  <innerhtml></innerhtml>
 </span>
 ```
 
