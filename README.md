@@ -62,7 +62,7 @@ components/fancy-text.comp
 </span>
 ```
 
-`$ ./Dokdo.py -c index.html -o out.html`
+`$ ./dokdo.py -c index.html -o out.html`
 
 out.html
 ```html
